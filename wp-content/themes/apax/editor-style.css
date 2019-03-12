@@ -1,0 +1,159 @@
+@import url('css/sansa.css');
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{ margin:0; padding:0;}
+table{ border-collapse:collapse; border-spacing:0;}
+fieldset,img{ border:0;}
+address,caption,cite,code,dfn,var{ font-style:normal; font-weight:normal;}
+ol,ul{ list-style:none;}
+caption,th{ text-align:left;}
+h1,h2,h3,h4,h5,h6{ font-size:100%; font-weight:normal;}
+q:before,q:after{ content:'';}
+abbr,acronym{ border:0;}
+
+body,button,input,select,textarea{ color:#232323; font-family:SansaPro,sans-serif; font-size:16px; line-height:1.4em;font-weight: normal; font-style: normal; letter-spacing: 1px}
+
+html {
+	padding: 20px;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+.alignleft{ display:inline; float:left; margin: 0 20px 10px 0;}
+.aligncenter{ clear:both;	display:block; margin-left:auto; margin-right:auto;}
+.alignright{ display:inline; float:right; margin: 0 0px 10px 20px;}
+
+h1,h2.center_underline {
+	text-align: center;
+    font-size: 1.7rem;
+    line-height: 1em;
+    color: #DE4C4C;
+    position: relative;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+}
+h1:before,h2.center_underline:before {
+	content: "";
+    position: absolute;
+    bottom: -15px;
+    width: 114px;
+    left: 50%;
+    margin: 0 0 0 -57px;
+    height: 1px;
+    background: #DE4C4C;
+}
+h1:after,h2.center_underline:after {
+	content: "";
+    background: #fff;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border: 1px solid #DE4C4C;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 11px;
+    height: 11px;
+    border-left: 0;
+    border-top: 0;
+    margin: 0 0 0 -5px;
+}
+
+h2{
+	color: #D54C4C;
+	font-size: 1.7rem;
+	margin-bottom: 22px;
+	line-height: 1em;
+}
+
+p {
+	margin: 0 0 22px 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul{
+    padding: 0 0 0 28px;
+	margin-bottom: 22px;
+}
+
+p + ul{
+	margin: -22px 0 22px 0;
+}
+
+ol{ 
+	list-style-type: decimal; 
+	list-style-position: inside; 
+	padding: 0;
+	margin-bottom: 45px;
+	text-transform: uppercase;
+	color: #cbdad7;
+}
+p + ol{
+	margin: -22px 0 22px 0;
+}
+
+ul li{
+	padding: 0 0 0 11px;
+	background: transparent url(img/dot.png) no-repeat 0 8px;
+}
+
+html body.webkit strong, html body.webkit b{ 
+	color: #D54C4C;
+	font-weight: normal!important;
+}
+
+a {
+	color: #0D91A2; text-decoration: none
+}
+
+hr {
+	border: 0;
+    border-top: 1px solid #B7B7B7;
+	margin-top: 60px;
+}
+
+blockquote {
+    padding: 0;
+    margin: 0 0 22px 0;
+    font-size: 21px;
+    border-left: 0;
+	line-height: 1.2em;
+	padding: 0;
+	color: #D54C4C;
+	quotes: "\00AB""\00BB""\2018""\2019";
+}
+blockquote:before {
+	content: open-quote;
+	font-size: 1em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: 0.1em;
+}
+blockquote:after {
+  content: close-quote;
+  font-size: 1em;
+  line-height: 0.1em;
+  margin-left: 0.25em;
+  vertical-align: 0.1em;
+}
+blockquote p {
+  display: inline;
+}
+.blue_text_opensans {
+	font-family: open sans, sans-serif;
+	font-size: 16px;
+	color: #2F868F;
+	line-height: 1em;
+	display: inline-block;
+}
+.mini_blue_text_opensans {
+	display: inline-block;
+	font-family: open sans, sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	color: #2F868F;
+	line-height: 1em;
+}

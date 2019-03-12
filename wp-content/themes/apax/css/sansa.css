@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "SansaPro";
+    src:    url('../fonts/SansaPro-Normal.eot?74mq3');
+    src:    url('../fonts/SansaPro-Normal.eot?74mq3#iefix') format('embedded-opentype'),
+        url('../fonts/SansaPro-Normal.ttf?74mq3') format('truetype'),
+        url('../fonts/SansaPro-Normal.woff?74mq3') format('woff');
+}
+@font-face {
+    font-family: "SansaPro";
+    src:    url('../fonts/SansaPro-Bold.eot?74mq3');
+    src:    url('../fonts/SansaPro-Bold.eot?74mq3#iefix') format('embedded-opentype'),
+        url('../fonts/SansaPro-Bold.ttf?74mq3') format('truetype'),
+        url('../fonts/SansaPro-Bold.woff?74mq3') format('woff');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "SansaPro";
+    src:    url('../fonts/SansaPro-NormalItalic.eot?74mq3');
+    src:    url('../fonts/SansaPro-NormalItalic.eot?74mq3#iefix') format('embedded-opentype'),
+        url('../fonts/SansaPro-NormalItalic.ttf?74mq3') format('truetype'),
+        url('../fonts/SansaPro-NormalItalic.woff?74mq3') format('woff');
+    font-style: italic;
+}

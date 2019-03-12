@@ -1,0 +1,106 @@
+.adakaListMultiple {
+	position: relative;
+}
+.adakaListMultiple .adakaListMultipleSelect {
+	border: solid 1px #DE4C4C;
+	position: relative;
+	cursor: pointer;
+	background: #fff;
+	font-size: 1.6rem;
+	color: #DE4C4C;
+	position: relative;
+}
+.adakaListMultiple .adakaListMultipleSelect span.txtSel {
+	padding: 10px 30px 10px 15px;
+	display: block
+}
+
+.adakaListMultiple .adakaListMultipleSelect span.cursor {
+	width: 0;
+	height: 0;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -3px;
+	border: solid 5px transparent;
+	border-top: solid 5px #DE4C4C;
+}
+
+.adakaListMultiple .adakaListMultipleSelect span.cursor-down {
+	border: solid 5px transparent !important;
+	border-bottom: solid 5px #DE4C4C !important;
+	margin-top: -8px;
+}
+.adakaListMultiple .adakaListMultipleSelect .image-option {
+	float: left;
+}
+.adakaListMultiple .adakaListMultipleSelect .image-option img {
+	vertical-align: middle;
+	margin-right: 6px;
+}
+.adakaListMultiple .adakaListMultipleSelect .text-option .description {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #aaa;
+	display: block;
+	overflow: hidden;
+	font-weight: normal;
+	line-height: 1.4em;
+	margin: 3px 16px 0;
+	font-size: 11px;
+}
+
+.adakaListMultiple .list-options {
+	border: solid 1px #DE4C4C;
+	border-top: none;
+	border-bottom: none;
+	list-style: none;
+	background: #fff;
+}
+.adakaListMultiple .list-options-absolute {
+	position: absolute;
+	z-index: 1000;
+	width: 100%;
+}
+.adakaListMultiple .list-options .option {
+	padding: 10px 15px;
+	display: block;
+	border-bottom: solid 1px #DE4C4C;
+	overflow: hidden;
+	text-decoration: none;
+	color: #DE4C4C;
+	cursor: pointer;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+}
+.adakaListMultiple .list-options .option.active {
+	background: #DE4C4C;
+	color: #fff;
+}
+.adakaListMultiple .list-options .option:hover {
+	background: #DE4C4C;
+	color: #fff;
+}
+
+.adakaListMultiple .list-options .option .chk-option {
+	float: left;
+	width: auto;
+	margin: 0px 6px 0 0;
+}
+.adakaListMultiple .list-options .option .image-option {
+	float: left;
+	margin-right: 6px;
+}
+.adakaListMultiple .list-options .option .text-option .description {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #aaa;
+	display: block;
+	overflow: hidden;
+	font-weight: normal;
+	line-height: 1.4em;
+	margin: 3px 0 0;
+	font-size: 11px;
+}

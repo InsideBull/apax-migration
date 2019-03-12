@@ -1,0 +1,12 @@
+
+body.page-template-template-list-talks h1 {
+	color: #2F868F;
+}
+body.page-template-template-list-talks h1:before,
+body.page-template-template-list-talks h1:after {
+	display: none!important;
+}
+
+.talks-list .item:nth-child(3n+1) {
+	clear: both;
+}
